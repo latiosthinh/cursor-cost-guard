@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "node .cursor/hooks/model-guard.js",
+        "timeout": 10
+      }
+    ],
+    "stop": [
+      {
+        "command": "node .cursor/hooks/auto-switch.js",
+        "timeout": 15,
+        "loop_limit": 1
+      }
+    ]
+  }
+}
