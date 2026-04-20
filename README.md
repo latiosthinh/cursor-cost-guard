@@ -53,10 +53,10 @@ One click to continue, one click to cancel and switch. No commands to remember, 
 
 ```bash
 # Clone the repo
-git clone https://github.com/latiosthinh/cursor-auto-switch-model
+git clone https://github.com/latiosthinh/cursor-cost-guard
 
 # Copy the hooks into your project
-cp -r cursor-auto-switch-model/.cursor /path/to/your/project/
+cp -r cursor-cost-guard/.cursor /path/to/your/project/
 ```
 
 **2. Make the scripts executable** (macOS / Linux):
